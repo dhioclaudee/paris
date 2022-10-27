@@ -1,0 +1,25 @@
+let person = [
+    {
+        name: "John",
+        age: 35,
+    },
+    {
+        name: "Bill",
+        age: 23,
+    },
+    {
+        name: "Bob",
+        age: 17,
+    },
+    {
+        name: "Jack",
+        age: 20,
+    }
+]
+
+
+let low = Math.min(person[0].age, person[1].age, person[2].age, person[3].age);
+let high = Math.max(person[0].age, person[1].age, person[2].age, person[3].age);
+
+console.log(low);
+console.log(high);
